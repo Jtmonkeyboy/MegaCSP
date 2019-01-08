@@ -58,21 +58,33 @@
                                 <rect key="frame" x="132" y="151" width="110" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Algorithm"/>
+                                <connections>
+                                    <segue destination="sQe-qz-yet" kind="show" id="c1b-Rl-VJF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg8-IO-qml">
                                 <rect key="frame" x="132" y="257" width="110" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Abstraction"/>
+                                <connections>
+                                    <segue destination="WJL-lQ-Czh" kind="show" id="meh-gd-gDN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9h-T8-9VS">
                                 <rect key="frame" x="132" y="367" width="110" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Creativity"/>
+                                <connections>
+                                    <segue destination="OkD-LR-cln" kind="show" id="hJh-BN-KaG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKk-MF-iE7">
                                 <rect key="frame" x="132" y="462" width="110" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Data"/>
+                                <connections>
+                                    <segue destination="Tf1-KW-Qxd" kind="show" id="Bkx-74-VnM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -81,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gjH-ZV-zOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1287.2" y="295.50224887556226"/>
+            <point key="canvasLocation" x="-1570" y="1163"/>
         </scene>
         <!--Abstraction View Controller-->
         <scene sceneID="Iis-FM-tDf">
